@@ -1,0 +1,44 @@
+from selenium import webdriver
+
+from selenium.webdriver.firefos.service import Service
+ from webdriver manager firefox inport GeckoDriverHariager
+
+from selenium.wendriver.common.try import By
+
+from selenium.webdriver.common.action chains import ActionChains
+
+from selenium.webdriver.support import expected conditions as EC
+
+from selenium,webdriver,support,ul import WebOriverbait
+
+from Data import date
+
+from Locators import locators
+
+class IMOB:
+
+def init (self):
+
+self.driver webdriver.Firefox() self.wait WebDriverwait(self.driver, 10)
+
+self.actions ActionChains(self.driver)
+
+def access URL(self):
+
+try:
+
+self.driver.maximize window()
+
+self.driver.get(data. IMDB Data().URI)
+
+except Exception as selenium_error:
+
+print("Selenium Error: selenium error)
+
+def fill datas(self):
+
+ Clicking Expand all button expand svg self.wait until(
+
+EC.element_to_be_clickable((lly.XPATH, locators. IMDB_Locators().expand_all_svg_xpath)))
+
+If not expand sve.is displaved():

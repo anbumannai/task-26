@@ -1,0 +1,15 @@
+class IMDB Locators:
+
+expand all_svg_xpath="//button//span[text()="Expand all']"
+
+name_ex_id = "text-input 7"
+
+birthday from id text Input 8" birthday to_id="text-input 9"
+
+PR quotes xp//button/span[text() 'Quotes"]/parent::button"
+
+gen iden male test xpath="//button/span[text()Hale']"
+
+gen_path=//div[@class="ipc-accordion_item_content_inner"]//button(@data-testid-test-chip-id-FEMALE)
+
+include adults id include-adult-names search spath=//button[@data-testid="adv-search-get-results"]//span[@class="ipc-btn_text"]"
